@@ -53,5 +53,11 @@ namespace Nhom_1_DotNet
         private void FrmSinhVien_Load(object sender, EventArgs e)
         {
         }
+
+        private void đăgnKíĐềTàiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmDKDT frmDKDT = new FrmDKDT();
+            frmDKDT.ShowDialog();
+        }
     }
 }

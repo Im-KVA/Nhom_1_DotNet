@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formdemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formdemo.Designer.cs">
+      <DependentUpon>Formdemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDKDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDKDT.Designer.cs">
+      <DependentUpon>FrmDKDT.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmGVHD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,18 +76,6 @@
     <Compile Include="FrmSinhVien.Designer.cs">
       <DependentUpon>FrmSinhVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmThongtin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmThongtin.Designer.cs">
-      <DependentUpon>frmThongtin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmTimkiem.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTimkiem.Designer.cs">
-      <DependentUpon>frmTimkiem.cs</DependentUpon>
-    </Compile>
     <Compile Include="Nhom1_dotnetDataSetOffical.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -83,6 +83,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formdemo.resx">
+      <DependentUpon>Formdemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDKDT.resx">
+      <DependentUpon>FrmDKDT.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmGVHD.resx">
       <DependentUpon>FrmGVHD.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,9 +97,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSinhVien.resx">
       <DependentUpon>FrmSinhVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmThongtin.resx">
-      <DependentUpon>frmThongtin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

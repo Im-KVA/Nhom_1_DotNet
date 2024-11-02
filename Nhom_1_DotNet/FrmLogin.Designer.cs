@@ -43,103 +43,123 @@
             ((System.ComponentModel.ISupportInitialize)(this.nhom1_dotnetDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhom1dotnetDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
+
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(302, 44);
+            this.label1.Font = new System.Drawing.Font("Arial", 22F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(0, 122, 204); // Màu chữ
+            this.label1.Location = new System.Drawing.Point(300, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 32);
+            this.label1.Size = new System.Drawing.Size(162, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Đăng nhập";
+
             // 
             // btnSv
             // 
-            this.btnSv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSv.Location = new System.Drawing.Point(144, 304);
+            this.btnSv.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
+            this.btnSv.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnSv.ForeColor = System.Drawing.Color.White;
+            this.btnSv.Location = new System.Drawing.Point(100, 350);
             this.btnSv.Name = "btnSv";
-            this.btnSv.Size = new System.Drawing.Size(125, 32);
+            this.btnSv.Size = new System.Drawing.Size(125, 40);
             this.btnSv.TabIndex = 1;
             this.btnSv.Text = "Sinh viên";
-            this.btnSv.UseVisualStyleBackColor = true;
+            this.btnSv.UseVisualStyleBackColor = false;
             this.btnSv.Click += new System.EventHandler(this.btnSv_Click);
+
             // 
             // btnGVHD
             // 
-            this.btnGVHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGVHD.Location = new System.Drawing.Point(311, 304);
+            this.btnGVHD.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
+            this.btnGVHD.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnGVHD.ForeColor = System.Drawing.Color.White;
+            this.btnGVHD.Location = new System.Drawing.Point(300, 350);
             this.btnGVHD.Name = "btnGVHD";
-            this.btnGVHD.Size = new System.Drawing.Size(125, 32);
+            this.btnGVHD.Size = new System.Drawing.Size(125, 40);
             this.btnGVHD.TabIndex = 2;
             this.btnGVHD.Text = "GVHD";
-            this.btnGVHD.UseVisualStyleBackColor = true;
+            this.btnGVHD.UseVisualStyleBackColor = false;
             this.btnGVHD.Click += new System.EventHandler(this.btnGVHD_Click);
+
             // 
             // btnAdmin
             // 
-            this.btnAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdmin.Location = new System.Drawing.Point(466, 304);
+            this.btnAdmin.BackColor = System.Drawing.Color.FromArgb(0, 122, 204);
+            this.btnAdmin.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnAdmin.ForeColor = System.Drawing.Color.White;
+            this.btnAdmin.Location = new System.Drawing.Point(500, 350);
             this.btnAdmin.Name = "btnAdmin";
-            this.btnAdmin.Size = new System.Drawing.Size(125, 32);
+            this.btnAdmin.Size = new System.Drawing.Size(125, 40);
             this.btnAdmin.TabIndex = 3;
             this.btnAdmin.Text = "Admin";
-            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.UseVisualStyleBackColor = false;
             this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
+
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(139, 260);
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(120, 300);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(223, 25);
+            this.label2.Size = new System.Drawing.Size(223, 24);
             this.label2.TabIndex = 4;
             this.label2.Text = "Đăng nhập với vai trò:";
+
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(139, 127);
+            this.label3.Font = new System.Drawing.Font("Arial", 12F);
+            this.label3.Location = new System.Drawing.Point(100, 130);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(151, 25);
+            this.label3.Size = new System.Drawing.Size(151, 24);
             this.label3.TabIndex = 5;
             this.label3.Text = "Tên đăng nhập:";
+
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(336, 127);
+            this.txtUsername.Location = new System.Drawing.Point(300, 130);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(165, 22);
+            this.txtUsername.Size = new System.Drawing.Size(250, 30);
             this.txtUsername.TabIndex = 6;
+
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(336, 174);
+            this.txtPassword.Location = new System.Drawing.Point(300, 180);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(165, 22);
+            this.txtPassword.Size = new System.Drawing.Size(250, 30);
             this.txtPassword.TabIndex = 8;
+            this.txtPassword.UseSystemPasswordChar = true; // Ẩn mật khẩu
+
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(139, 174);
+            this.label4.Font = new System.Drawing.Font("Arial", 12F);
+            this.label4.Location = new System.Drawing.Point(100, 180);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 25);
+            this.label4.Size = new System.Drawing.Size(99, 24);
             this.label4.TabIndex = 7;
             this.label4.Text = "Mật khẩu:";
+
             // 
             // nhom1_dotnetDataSet
             // 
             this.nhom1_dotnetDataSet.DataSetName = "Nhom1_dotnetDataSet";
             this.nhom1_dotnetDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+
             // 
             // nhom1dotnetDataSetBindingSource
             // 
             this.nhom1dotnetDataSetBindingSource.DataSource = this.nhom1_dotnetDataSet;
             this.nhom1dotnetDataSetBindingSource.Position = 0;
+
             // 
             // FrmLogin
             // 
@@ -156,12 +176,13 @@
             this.Controls.Add(this.btnSv);
             this.Controls.Add(this.label1);
             this.Name = "FrmLogin";
-            this.Text = "FrmLogin";
+            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nhom1_dotnetDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nhom1dotnetDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
 
         }
 
