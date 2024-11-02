@@ -176,7 +176,11 @@
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label4;
-        private Nhom1_dotnetDataSet nhom1_dotnetDataSet;
+        private Nhom1_dotnetDataSetOffical nhom1_dotnetDataSet;
         private System.Windows.Forms.BindingSource nhom1dotnetDataSetBindingSource;
+    }
+
+    internal class Nhom1_dotnetDataSet : Nhom1_dotnetDataSetOffical
+    {
     }
 }
