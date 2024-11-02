@@ -76,22 +76,6 @@
     <Compile Include="frmTimkiem.Designer.cs">
       <DependentUpon>frmTimkiem.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_dkidetai.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_dkidetai.Designer.cs">
-      <DependentUpon>frm_dkidetai.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Nhom1_dotnetDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Nhom1_dotnetDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Nhom1_dotnetDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Nhom1_dotnetDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Nhom1_dotnetDataSetOffical.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -111,9 +95,6 @@
     <EmbeddedResource Include="frmThongtin.resx">
       <DependentUpon>frmThongtin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_dkidetai.resx">
-      <DependentUpon>frm_dkidetai.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -123,28 +104,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Nhom1_dotnetDataSet.xsc">
-      <DependentUpon>Nhom1_dotnetDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="Nhom1_dotnetDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Nhom1_dotnetDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Nhom1_dotnetDataSet.xss">
-      <DependentUpon>Nhom1_dotnetDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="Nhom1_dotnetDataSet1.xsc">
-      <DependentUpon>Nhom1_dotnetDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="Nhom1_dotnetDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Nhom1_dotnetDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Nhom1_dotnetDataSet1.xss">
-      <DependentUpon>Nhom1_dotnetDataSet1.xsd</DependentUpon>
-    </None>
     <None Include="Nhom1_dotnetDataSetOffical.xsc">
       <DependentUpon>Nhom1_dotnetDataSetOffical.xsd</DependentUpon>
     </None>
